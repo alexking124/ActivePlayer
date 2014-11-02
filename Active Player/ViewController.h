@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
+#import <CoreMotion/CoreMotion.h>
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UISlider *activeVolumeSlider;
+@property (strong, nonatomic) IBOutlet UISlider *restVolumeSlider;
+@property (strong, nonatomic) IBOutlet UISlider *sensitivitySlider;
+@property (strong, nonatomic) IBOutlet UISlider *responsivenessSlider;
+@property (strong, nonatomic) IBOutlet UISwitch *controlSwitch;
 
 @end
 
